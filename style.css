@@ -1,11 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+             
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Montserrat";
     margin: 0;
 }
 
 .container {
-
+    width: 80%;
+    max-width: 1300px;
+    margin: auto;
 }
+
+.container-fluid {
+    width: 100%;
+}
+
+.navigation-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navigation-header .logo img{
+    width: 150px;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;       
+}
+
+.links li {
+    margin: 0 20px;
+}
+
+.links li a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
 
 button {
         background-color: blue;
@@ -27,45 +62,44 @@ button {
         position: fixed;
             
     }
-            
-        .links {
-            display: flex;
-            align-items: center;
-                
-        }
 
-        img {
+
+            
+        
+
+        /* img {
             margin: 16px 0px 7px 13%;
             max-width:132px;
             max-height:41px;
             width: auto;
             height: auto;
-        }
+        } */
 
-        .links li {
+        /* .links li {
             float: left;
             font-weight: 600;
             columns: 3;
-        }
+        } */
 
         .links a {
             color: white;
         }
 
-        .banner-hero {
-            display: flex;
-            height: 100vh;
-            flex-direction: column;
-            justify-content: space-evenly;
-            text-align: left;
-            background-image: url(image/primeirofundo.png);
-            color: white;
-        }
+    .banner-hero {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: left;
+        background-image: url(image/primeirofundo.png);
+        color: white;
+    }
 
-        .text {
-            margin: 0px 0px 0px 50px;
-            columns: 2;
-        }
+    .text {
+    margin: 0px 0px 0px 50px;
+    columns: 2;
+    }
+
     div .formulary {
         display: flex;
         padding: 30px 35px;
