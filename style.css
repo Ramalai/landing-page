@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container {
+
+}
+
+button {
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        width: 300px;
+        height: 50px;
+        border-radius: 10%;
+        border: none;
+        cursor: pointer;
+        
+}
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.979);
+        width: 100%;
+        position: fixed;
+            
+    }
+            
+        .links {
+            display: flex;
+            align-items: center;
+                
+        }
+
+        img {
+            margin: 16px 0px 7px 13%;
+            max-width:132px;
+            max-height:41px;
+            width: auto;
+            height: auto;
+        }
+
+        .links li {
+            float: left;
+            font-weight: 600;
+            columns: 3;
+        }
+
+        .links a {
+            color: white;
+        }
+
+        .banner-hero {
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: left;
+            background-image: url(image/primeirofundo.png);
+            color: white;
+        }
+
+        .text {
+            margin: 0px 0px 0px 50px;
+            columns: 2;
+        }
+    div .formulary {
+        display: flex;
+        padding: 30px 35px;
+        border-radius: 20px;
+        height: 100vh;
+        
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    
+
+    
+    
