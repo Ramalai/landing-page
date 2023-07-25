@@ -25,7 +25,6 @@ body {
     width: 150px;
 }
 
-
 .links {
     display: flex;
     align-items: center;
@@ -39,7 +38,33 @@ body {
 .links li a {
     font-weight: 700;
     text-decoration: none;
+    color: white;
 }
+
+.banner-hero {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(image/primeirofundo.png);
+}
+
+.banner-hero .text {
+    line-height: 1.5;
+    text-align: left;
+    text-indent: 20px;
+}
+
+.banner-hero .text h2 {
+    color: white;
+    font-weight: 700;
+    
+}
+
+.banner-hero .text p {
+    color: white;
+}
+
 
 
 button {
@@ -62,61 +87,3 @@ button {
         position: fixed;
             
     }
-
-
-            
-        
-
-        /* img {
-            margin: 16px 0px 7px 13%;
-            max-width:132px;
-            max-height:41px;
-            width: auto;
-            height: auto;
-        } */
-
-        /* .links li {
-            float: left;
-            font-weight: 600;
-            columns: 3;
-        } */
-
-        .links a {
-            color: white;
-        }
-
-    .banner-hero {
-        display: flex;
-        height: 100vh;
-        flex-direction: column;
-        justify-content: space-evenly;
-        text-align: left;
-        background-image: url(image/primeirofundo.png);
-        color: white;
-    }
-
-    .text {
-    margin: 0px 0px 0px 50px;
-    columns: 2;
-    }
-
-    div .formulary {
-        display: flex;
-        padding: 30px 35px;
-        border-radius: 20px;
-        height: 100vh;
-        
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-
-
-    
-
-    
-    
